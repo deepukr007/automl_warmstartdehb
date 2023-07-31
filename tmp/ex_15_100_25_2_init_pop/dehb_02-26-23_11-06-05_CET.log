@@ -1,0 +1,117 @@
+2023-02-26T11:06:05.243107+0100 INFO Arguments: ['--max_epochs=100', '--min_epochs=25', '--eta=2', '--runtime=21600', '--device=cuda', '--expname=ex_15_100_25_2_init_pop', '--n_proxy=10000'] 
+2023-02-26T11:06:05.244052+0100 INFO Length of intial population: 10000 
+2023-02-26T11:06:05.244636+0100 INFO Time spent for proxies: 2061.668258666992  
+2023-02-26T11:19:01.103393+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    3    |    1    |    0    |
+|  50.00  |    2    |    0    |    0    |
+| 100.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-26T11:19:01.103612+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T11:43:02.233691+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    2    |    1    |    1    |
+|  50.00  |    2    |    0    |    0    |
+| 100.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-26T11:43:02.233919+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T11:53:45.520973+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    1    |    1    |    2    |
+|  50.00  |    2    |    0    |    0    |
+| 100.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-26T11:53:45.521202+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T12:08:41.749778+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    0    |    1    |    3    |
+|  50.00  |    2    |    0    |    0    |
+| 100.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-26T12:08:41.750012+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T12:30:00.798558+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    0    |    0    |    4    |
+|  50.00  |    1    |    1    |    0    |
+| 100.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-26T12:30:00.798788+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T12:55:41.059793+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    0    |    0    |    4    |
+|  50.00  |    0    |    1    |    1    |
+| 100.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-26T12:55:41.060024+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T13:38:19.143035+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    0    |    0    |    4    |
+|  50.00  |    0    |    0    |    2    |
+| 100.00  |    0    |    1    |    0    |
+-----------------------------------------
+2023-02-26T13:38:19.143264+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T13:56:22.216217+0100 DEBUG Bracket ID 1:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  50.00  |    1    |    1    |    0    |
+| 100.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-26T13:56:22.216450+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T14:14:57.016446+0100 DEBUG Bracket ID 1:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  50.00  |    0    |    1    |    1    |
+| 100.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-26T14:14:57.016666+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T15:06:23.919734+0100 DEBUG Bracket ID 1:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  50.00  |    0    |    0    |    2    |
+| 100.00  |    0    |    1    |    0    |
+-----------------------------------------
+2023-02-26T15:06:23.919961+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T15:41:34.910837+0100 DEBUG Bracket ID 2:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+| 100.00  |    2    |    1    |    0    |
+-----------------------------------------
+2023-02-26T15:41:34.911057+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T16:08:51.804384+0100 DEBUG Bracket ID 2:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+| 100.00  |    1    |    1    |    1    |
+-----------------------------------------
+2023-02-26T16:08:51.804618+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T16:37:36.015125+0100 DEBUG Bracket ID 2:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+| 100.00  |    0    |    1    |    2    |
+-----------------------------------------
+2023-02-26T16:37:36.015350+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-26T16:37:36.041321+0100 INFO Total time taken: 19890.94492149353 
+2023-02-26T16:37:36.041605+0100 INFO Saving optimisation trace history...
+2023-02-26T17:04:52.868739+0100 INFO Configuration(values={
+  'augment': False,
+  'dropout_rate': 0.001752331765529136,
+  'global_avg_pooling': False,
+  'kernel_conv_0': 1,
+  'kernel_conv_1': 2,
+  'kernel_conv_2': 3,
+  'learning_rate_init': 0.00033205591037519585,
+  'n_channels_conv_0': 68,
+  'n_channels_conv_1': 91,
+  'n_channels_conv_2': 152,
+  'n_conv_layers': 3,
+  'n_fc_layers': 1,
+  'standardize': True,
+  'use_BN': True,
+})
+

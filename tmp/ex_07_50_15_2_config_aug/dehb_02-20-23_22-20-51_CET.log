@@ -1,0 +1,49 @@
+2023-02-20T22:20:51.165900+0100 INFO Arguments: ['--max_epochs=50', '--min_epochs=15', '--eta=2', '--runtime=21600', '--device=cuda', '--expname=ex_07_50_15_2_config_aug', '--n_proxy=10000'] 
+2023-02-20T22:20:51.167056+0100 INFO Length of intial population: 7698 
+2023-02-20T22:20:51.167673+0100 INFO Time spent for proxies: 3600.360443353653  
+2023-02-20T22:55:55.466520+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    1    |    1    |    0    |
+|  50.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-20T22:55:55.466801+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-20T23:39:29.954318+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    0    |    1    |    1    |
+|  50.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-20T23:39:29.954541+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-21T00:48:49.496470+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  25.00  |    0    |    0    |    2    |
+|  50.00  |    0    |    1    |    0    |
+-----------------------------------------
+2023-02-21T00:48:49.496678+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-21T02:15:28.691124+0100 DEBUG Bracket ID 1:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  50.00  |    1    |    1    |    0    |
+-----------------------------------------
+2023-02-21T02:15:28.691334+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-21T03:22:21.704797+0100 DEBUG Bracket ID 1:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  50.00  |    0    |    1    |    1    |
+-----------------------------------------
+2023-02-21T03:22:21.705020+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-21T03:22:21.774244+0100 INFO Total time taken: 18090.76267671585 
+2023-02-21T03:22:21.774850+0100 INFO Saving optimisation trace history...
+2023-02-21T05:40:44.616980+0100 INFO Test loss is 0.077 for the best found configuration: 
+2023-02-21T05:40:44.617253+0100 INFO Configuration(values={
+  'augment': False,
+  'learning_rate_init': 7.603916256789027e-05,
+  'n_channels_conv_0': 410,
+  'n_channels_conv_1': 440,
+  'n_channels_conv_2': 508,
+  'n_conv_layers': 3,
+  'standardize': True,
+})
+

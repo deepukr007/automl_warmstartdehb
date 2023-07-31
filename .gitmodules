@@ -1,0 +1,3 @@
+[submodule "zero-cost-nas"]
+	path = zero-cost-nas
+	url = https://github.com/SamsungLabs/zero-cost-nas/

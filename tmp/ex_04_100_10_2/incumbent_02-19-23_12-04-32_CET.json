@@ -1,0 +1,1 @@
+{"config": {"learning_rate_init": 0.00010821788205257151, "n_channels_conv_0": 500, "n_conv_layers": 3, "n_channels_conv_1": 505, "n_channels_conv_2": 510}, "score": 0.06740000000000002, "info": {"test_loss": 0.07489999999999997, "budget": 25.0}}

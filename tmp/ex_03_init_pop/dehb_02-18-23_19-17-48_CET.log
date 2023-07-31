@@ -1,0 +1,44 @@
+2023-02-18T20:10:08.666018+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  40.00  |    2    |    1    |    0    |
+| 120.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-18T20:10:08.666231+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-18T20:44:05.339865+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  40.00  |    1    |    1    |    1    |
+| 120.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-18T20:44:05.340057+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-18T21:24:33.400420+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  40.00  |    0    |    1    |    2    |
+| 120.00  |    1    |    0    |    0    |
+-----------------------------------------
+2023-02-18T21:24:33.400614+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-19T00:00:57.873708+0100 DEBUG Bracket ID 0:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+|  40.00  |    0    |    0    |    3    |
+| 120.00  |    0    |    1    |    0    |
+-----------------------------------------
+2023-02-19T00:00:57.873898+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-19T02:18:36.222812+0100 DEBUG Bracket ID 1:
+| budget  | pending | waiting |  done   |
+-----------------------------------------
+| 120.00  |    1    |    1    |    0    |
+-----------------------------------------
+2023-02-19T02:18:36.223010+0100 DEBUG Collecting 1 of the 1 job(s) active.
+2023-02-19T02:18:36.289995+0100 INFO Saving optimisation trace history...
+2023-02-19T04:13:16.912344+0100 INFO Test loss is 0.076 for the best found configuration: 
+2023-02-19T04:13:16.912608+0100 INFO Configuration(values={
+  'learning_rate_init': 3.238277515991943e-05,
+  'n_channels_conv_0': 482,
+  'n_channels_conv_1': 313,
+  'n_channels_conv_2': 472,
+  'n_conv_layers': 3,
+})
+
